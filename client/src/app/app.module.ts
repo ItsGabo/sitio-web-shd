@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { InfoComponent } from './components/info/info.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MapaComponent } from './components/mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ProductsComponent,
     InfoComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
