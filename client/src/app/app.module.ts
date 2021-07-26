@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductsComponent } from './components/products/products.component';
 import { AppRoutingModule } from './app-routing.module';
 import { InfoComponent } from './components/info/info.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { InfoComponent } from './components/info/info.component';
     NavbarComponent,
     HomeComponent,
     ProductsComponent,
-    InfoComponent
+    InfoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
