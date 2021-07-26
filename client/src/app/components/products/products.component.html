@@ -1,1 +1,11 @@
-<p>products works!</p>
+<div class="row">
+    <div class="col-sm-6" *ngFor="let product of products">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <a class="btn btn-primary">Precio {{ product.price }}</a>
+          <a href="#" class="btn btn-success ms-2">Ver más</a>
+        </div>
+      </div>
+    </div>
+</div>
